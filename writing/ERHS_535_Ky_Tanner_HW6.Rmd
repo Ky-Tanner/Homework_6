@@ -1,0 +1,16 @@
+---
+title: "Homework 6"
+author: "Ky Tanner"
+date: "due : 12/4/2020"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Listing files from "data" directory
+```{r}
+list.files("../data/data-homicides-master")
+```
+
